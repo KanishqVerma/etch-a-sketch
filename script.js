@@ -18,13 +18,13 @@ function resetEventListeners(){
     row.forEach((cell) => {
         cell.addEventListener("mousedown", () => {
             // cell.style.backgroundColor = "white";
-            cell.style.backgroundColor = `rgb(${randomNumberGenerator()}, ${randomNumberGenerator()}, ${randomNumberGenerator()})`;
+            cell.style.backgroundColor = "white";
         })
         
         cell.addEventListener("mouseover", () => {
             if (flag === true){
                 // cell.style.backgroundColor = "white";
-                cell.style.backgroundColor = `rgb(${randomNumberGenerator()}, ${randomNumberGenerator()}, ${randomNumberGenerator()})`;
+                cell.style.backgroundColor = "white";
             }
         })
     })
